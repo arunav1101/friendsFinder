@@ -14,9 +14,26 @@ let friendArray = [{
         1
     ]
 },
+
 {
     name: "zoya",
     photo: "http://www.dumpaday.com/wp-content/uploads/2013/08/funny-date-with-crazy-cat-lady.jpg",
+    scores: [
+        2,
+        3,
+        4,
+        2,
+        1,
+        4,
+        5,
+        3,
+        2,
+        3
+    ]
+},
+{
+    name: "zahad",
+    photo: "http://hdwpro.com/wp-content/uploads/2019/03/Top-Cute-Panda.jpg",
     scores: [
         2,
         3,
