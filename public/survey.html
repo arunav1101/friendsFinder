@@ -204,6 +204,7 @@
 
 <script type="text/javascript">
   $("#add-btn").on("click", function (event) {
+    $('.modal-body').empty();
     var newCharacter = {
       "name": $("#name").val().trim(),
       "photo": $("#pic").val().trim(),
@@ -229,7 +230,7 @@
           .then(function (data1) {
             console.log('get call', data1);
             $('#Mymodal').modal('show')
-            $('.modal-body').append(`<img src=${data1.photo} width=300px height=300px><h1>${data.name}</h1></img>`);
+            $('.modal-body').append(`<img src=${data1.photo} width=300px height=300px><h1>${data1.name}</h1></img>`);
           });
       });
   });
